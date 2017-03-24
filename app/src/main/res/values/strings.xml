@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayout</string>
+    <string name="bottom_tab_msg">消息</string>
+    <string name="bottom_tab_contact">联系人</string>
+    <string name="bottom_tab_discover">发现</string>
+    <string name="bottom_tab_profile">我</string>
+    <string name="top_tab_activity">测试TopTabLayout</string>
+    <string name="bottom_tab_activity">测试BottomTabLayout</string>
+</resources>
