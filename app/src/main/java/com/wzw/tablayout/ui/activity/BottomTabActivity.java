@@ -35,10 +35,10 @@ public class BottomTabActivity extends AppCompatActivity implements CommonTabLay
         mViewPager = (ViewPager) findViewById(R.id.view_pager_bottom);
 
         final BottomTabLayout bottomTabLayout = (BottomTabLayout) findViewById(R.id.bottom_tab_layout);
-        mBottomTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_msg));
-        mBottomTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_contact));
-        mBottomTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_discover));
-        mBottomTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_profile));
+        mBottomTabs.add(new CommonTabLayout.Tab(R.drawable.tab_msg_selector,R.string.bottom_tab_msg));
+        mBottomTabs.add(new CommonTabLayout.Tab(R.drawable.tab_contact_selector,R.string.bottom_tab_contact));
+        mBottomTabs.add(new CommonTabLayout.Tab(R.drawable.tab_discover_selector,R.string.bottom_tab_discover));
+        mBottomTabs.add(new CommonTabLayout.Tab(R.drawable.tab_profile_selector,R.string.bottom_tab_profile));
         bottomTabLayout.setTab(mBottomTabs);
         bottomTabLayout.setOnTabClickListener(this);
 

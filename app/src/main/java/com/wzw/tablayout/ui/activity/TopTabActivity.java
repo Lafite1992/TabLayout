@@ -35,10 +35,10 @@ public class TopTabActivity extends AppCompatActivity implements CommonTabLayout
         mViewPager = (ViewPager) findViewById(R.id.view_pager_top);
 
         final TopTabLayout topTabLayout = (TopTabLayout) findViewById(R.id.top_tab_layout);
-        mTopTabs.add(new CommonTabLayout.Tab(R.drawable.tab_msg_selector,R.string.bottom_tab_msg));
-        mTopTabs.add(new CommonTabLayout.Tab(R.drawable.tab_contact_selector,R.string.bottom_tab_contact));
-        mTopTabs.add(new CommonTabLayout.Tab(R.drawable.tab_discover_selector,R.string.bottom_tab_discover));
-        mTopTabs.add(new CommonTabLayout.Tab(R.drawable.tab_profile_selector,R.string.bottom_tab_profile));
+        mTopTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_msg));
+        mTopTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_contact));
+        mTopTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_discover));
+        mTopTabs.add(new CommonTabLayout.Tab(R.string.bottom_tab_profile));
         topTabLayout.setTab(mTopTabs);
         topTabLayout.setOnTabClickListener(this);
 
